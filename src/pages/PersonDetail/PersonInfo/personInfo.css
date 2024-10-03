@@ -1,0 +1,24 @@
+.person-info {
+  flex: 3;
+  gap: 20px;
+}
+
+.info-top div {
+  gap: 20px;
+}
+
+.person-info b {
+  color: gray;
+}
+
+.user-friends {
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .person-info {
+    display: none;
+  }
+}

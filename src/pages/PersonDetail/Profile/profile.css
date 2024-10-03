@@ -1,0 +1,40 @@
+.profile-container {
+  flex: 9;
+}
+
+.profile {
+  background-image: url("/public/assets/post/3.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  width: 100%;
+  position: relative;
+}
+
+.profile-info {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.profile .person-img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #fff;
+}
+
+.profile-bottom {
+  margin-top: 150px;
+  align-items: start;
+}
+
+@media screen and (max-width: 1000px) {
+  .profile .person-img {
+    width: 150px;
+    height: 150px;
+  }
+}

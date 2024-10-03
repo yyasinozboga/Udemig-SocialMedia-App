@@ -1,0 +1,53 @@
+.home {
+  justify-content: space-between;
+  align-items: start;
+}
+
+.share {
+  width: 100%;
+  padding: 10px 20px 20px;
+  gap: 20px;
+  flex: 5.5;
+}
+
+.share-top {
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.share-top div {
+  gap: 10px;
+}
+
+.share-top input {
+  width: 100%;
+  border: none;
+}
+
+.share-top .person-img {
+  width: 60px;
+  height: 60px;
+}
+
+.share-hr {
+  margin: 20px;
+}
+
+.share-options-container {
+  padding: 0 20px 40px;
+  justify-content: space-between;
+}
+
+.share-options {
+  gap: 20px !important;
+  white-space: nowrap;
+}
+
+.share-btn {
+  background-color: green;
+  padding: 5px;
+  color: #fff;
+  border-radius: 8px;
+}

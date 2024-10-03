@@ -1,0 +1,35 @@
+.post {
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.post-top {
+  justify-content: space-between;
+}
+
+.post-top div {
+  gap: 10px;
+}
+
+.post button {
+  background-color: transparent;
+}
+
+.post-main {
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.post-footer {
+  justify-content: space-between;
+}
+
+.post-footer div {
+  gap: 10px;
+}
+
+.post-footer img {
+  width: 35px;
+}

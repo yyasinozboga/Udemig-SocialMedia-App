@@ -1,0 +1,59 @@
+.login-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.title {
+  color: #1d77ec;
+  font-size: 60px;
+}
+
+.content {
+  font-size: 30px;
+}
+
+.login-container .form {
+  width: 50%;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container .form-input {
+  border: 1px solid black;
+  border-radius: 10px;
+  text-indent: 0;
+  margin: 0;
+}
+
+.form-container .form-btn {
+  background-color: #1d77ec;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  position: static;
+  width: 100%;
+}
+
+.forgot-password {
+  color: #1d77ec;
+  text-align: center;
+}
+
+.create-btn {
+  background-color: #3eae28;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}

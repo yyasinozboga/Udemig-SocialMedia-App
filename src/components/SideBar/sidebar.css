@@ -1,0 +1,77 @@
+.sidebar {
+  padding: 10px;
+  flex: 2;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: sticky;
+  top: 68px;
+  height: calc(100vh - 68px);
+  justify-content: start;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+
+.category {
+  width: 90%;
+  padding: 10px;
+  gap: 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  justify-content: start;
+}
+
+.category:hover {
+  cursor: pointer;
+  background-color: rgb(179, 179, 179);
+}
+
+.sidebar-btn {
+  margin-top: 10px;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sidebar-hr {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.close-friends {
+  padding: 0 10px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1310px) {
+  .sidebar {
+    flex: 0.6;
+    align-items: center;
+    padding: 0;
+  }
+
+  .category {
+    justify-content: center;
+  }
+
+  .category span:nth-child(2) {
+    display: none;
+  }
+
+  .sidebar-btn {
+    display: none;
+  }
+
+  .sidebar .close-friends span {
+    display: none;
+  }
+}
